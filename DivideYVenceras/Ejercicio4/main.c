@@ -1,4 +1,18 @@
 #include <stdio.h>
+void mayorMenorClasico(const int* v,int izq,int der,int* min,int* max){
+    *min = *max = v[izq];
+    for(int i = izq + 1; i <= der; ++i){
+        *min = *min < v[i]? *min:v[i];
+        *max = *max > v[i]? *max:v[i];
+    }
+}
+int sumaClasico(int* v,int izq, int der,int menor,int mayor){
+    int suma = 0;
+    for(int i = izq; i <= der; ++i){
+        suma += ((v[i] != mayor) && (v[i] != menor))? v[i] : 0;
+    }
+    return suma;
+}
 void mayorMenorDYV(int* v, int izq,int der,int* min,int* max){
     if(izq == der){
         *min = *max = v[izq];
@@ -24,7 +38,10 @@ int main() {
     int mayor;
     int menor;
     int v[] = {8,7,6,5,4,1};
+    mayorMenorClasico(v,0,5,&menor,&mayor);
+    printf("El menor valor es:%d\nEl valor mayor es:%d\n",menor,mayor);
+    printf("La suma es:%d\n", sumaClasico(v,0,5,menor,mayor));
     mayorMenorDYV(v,0,5,&menor,&mayor);
-    printf("la suma es:%d", sumaDYV(v,0,5,menor,mayor));
+    printf("La suma es:%d", sumaDYV(v,0,5,menor,mayor));
     return 0;
 }
