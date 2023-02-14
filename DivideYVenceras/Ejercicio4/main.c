@@ -16,6 +16,14 @@ int sumaClasico(int* v,int izq, int der,int menor,int mayor){
 void mayorMenorDYV(int* v, int izq,int der,int* min,int* max){
     if(izq == der){
         *min = *max = v[izq];
+    }else if(izq + 1 == der){
+        if(v[izq] > v[der]){
+            *max = v[izq];
+            *min = v[der];
+        }else{
+            *max = v[der];
+            *min = v[izq];
+        }
     }else{
         int minIzq,maxIzq;
         int mid = (der + izq)/2;
