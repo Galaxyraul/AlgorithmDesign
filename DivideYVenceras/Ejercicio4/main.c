@@ -18,9 +18,9 @@ void mayorMenorDYV(int* v, int izq,int der,int* min,int* max){
         *min = *max = v[izq];
     }else{
         int minIzq,maxIzq;
-        int mid = (der - izq)/2;
-        mayorMenorDYV(v,izq,izq + mid,&minIzq,&maxIzq);
-        mayorMenorDYV(v,izq + mid + 1,der,min,max);
+        int mid = (der + izq)/2;
+        mayorMenorDYV(v,izq,mid,&minIzq,&maxIzq);
+        mayorMenorDYV(v,mid + 1,der,min,max);
         *min = *min < minIzq ? *min : minIzq;
         *max = *max > maxIzq ? *max : maxIzq;
     }
@@ -37,7 +37,7 @@ int sumaDYV(int* v,int izq ,int der,int menor,int mayor){
 int main() {
     int mayor;
     int menor;
-    int v[] = {8,7,6,5,4,1};
+    int v[] = {8,7,6,5,1,1};
     mayorMenorClasico(v,0,5,&menor,&mayor);
     printf("El menor valor es:%d\nEl valor mayor es:%d\n",menor,mayor);
     printf("La suma es:%d\n", sumaClasico(v,0,5,menor,mayor));
