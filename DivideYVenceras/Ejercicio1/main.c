@@ -96,7 +96,7 @@ int busquedaTernaria(int *v,int izq,int der,int dato){
     return busquedaTernaria(v,izq + 2 * tercio,der,dato);
 }
 int main() {
-    int tam = 259918;//Valor maximo de enteros que puede tener
+    int tam = 200000;//Valor maximo de enteros que puede tener
     srand(28);
     int v[tam];
     for(int i = 0; i < tam; ++i){
