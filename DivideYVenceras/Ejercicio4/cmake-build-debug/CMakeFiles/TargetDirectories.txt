@@ -1,0 +1,3 @@
+C:/Users/cocol/OneDrive/Escritorio/AlgorithmDesign/DivideYVenceras/Ejercicio4/cmake-build-debug/CMakeFiles/Ejercicio4.dir
+C:/Users/cocol/OneDrive/Escritorio/AlgorithmDesign/DivideYVenceras/Ejercicio4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cocol/OneDrive/Escritorio/AlgorithmDesign/DivideYVenceras/Ejercicio4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
