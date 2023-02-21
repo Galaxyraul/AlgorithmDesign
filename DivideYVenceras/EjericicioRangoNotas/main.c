@@ -78,13 +78,15 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
 
 }
 int main() {
-    int tam = 8;
+    int tam = 28;
     srand(28);
     int v[tam];
     for (int i = 0; i < tam; ++i) {
         v[i] = rand() % 201 - 100;
     }
+
     int ini,fin;
-    rangoNotas(v,0,27,&ini,&fin);
+    int nota = rangoNotas(v,0,27,&ini,&fin);
+    printf("El rango de días que se obtiene la mayor nota es:%d - %d con una nota de:%d",ini + 1,fin + 1,nota);
     return 0;
 }
