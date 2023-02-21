@@ -60,20 +60,17 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
                 *start = sDer;
                 *end = eDer;
                 return sumaDer;
-            }else{
-                *start = izqMid;
-                *end = derMid;
-                return sumaMid;
             }
-        }else{
-            if(sumaIzq > sumaMid){
-                return sumaIzq;
-            }else{
-                *start = izqMid;
-                *end = derMid;
-                return sumaMid;
-            }
+            *start = izqMid;
+            *end = derMid;
+            return sumaMid;
         }
+        if(sumaIzq > sumaMid){
+            return sumaIzq;
+        }
+        *start = izqMid;
+        *end = derMid;
+        return sumaMid;
     }
 
 }
