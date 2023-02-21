@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 int rangoNotas(int* v,int izq,int der,int* start,int* end){
     if(der - izq == 1){
         //Si ambos son mayores que 0 devolvermos la suma de ambos y los asignamos
@@ -19,7 +21,15 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
         //En caso de que ambos sean 0 posiciones a -1 y devolvemos 0
         *start = *end = - 1;
         return 0;
-    }else{
+    }else if (der - izq == 0){
+        if(v[izq] > 0){
+            *start = *end = izq;
+            return v[izq];
+        } else{
+            *start = *end = -1;
+            return 0;
+        }
+    }{
         int mid = (izq + der)/2;
         int sDer,eDer;
         //Hacemos la recursividad
@@ -68,6 +78,13 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
 
 }
 int main() {
-    printf("Hello, World!\n");
+    int tam = 8;
+    srand(28);
+    int v[tam];
+    for (int i = 0; i < tam; ++i) {
+        v[i] = rand() % 201 - 100;
+    }
+    int ini,fin;
+    rangoNotas(v,0,27,&ini,&fin);
     return 0;
 }
