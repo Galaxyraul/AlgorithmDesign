@@ -1,0 +1,17 @@
+# ninja log v5
+0	230	6986773556361152	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+231	432	6986773558343870	EjercicioCentroUnion.exe	4408f5bd149af668
+3	111	6986773898146473	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+111	247	6986773899436742	EjercicioCentroUnion.exe	4408f5bd149af668
+2	114	6986776215968841	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+114	236	6986776217133354	EjercicioCentroUnion.exe	4408f5bd149af668
+2	115	6986778762933098	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+116	252	6986778764287517	EjercicioCentroUnion.exe	4408f5bd149af668
+2	106	6986779574899765	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+107	259	6986779576358998	EjercicioCentroUnion.exe	4408f5bd149af668
+1	95	6986784206526342	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+96	222	6986784207745284	EjercicioCentroUnion.exe	4408f5bd149af668
+1	94	6986794115246843	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+95	229	6986794116519133	EjercicioCentroUnion.exe	4408f5bd149af668
+2	109	6986794657003492	CMakeFiles/EjercicioCentroUnion.dir/main.c.obj	e867001a82c62ec2
+110	240	6986794658247199	EjercicioCentroUnion.exe	4408f5bd149af668

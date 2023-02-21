@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -11,23 +14,11 @@
   <component name="ChangeListManager">
     <list default="true" id="aadedd5a-6ee7-4043-943b-857b6c302652" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/Ejercicio1.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/Ejercicio1.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/Ejercicio1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/Ejercicio1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/CMakeFiles/Ejercicio4.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/CMakeFiles/Ejercicio4.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/Ejercicio4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/Ejercicio4.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +44,11 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/cocol/OneDrive/Escritorio/AlgorithmDesign/DivideYVenceras",
+    "last_opened_file_path": "C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/DivideYVenceras/EjercicioCentroUnion",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +63,7 @@
       <workItem from="1676368345212" duration="33000" />
       <workItem from="1676368493741" duration="23000" />
       <workItem from="1676368654499" duration="20000" />
+      <workItem from="1676883812405" duration="600000" />
     </task>
     <servers />
   </component>

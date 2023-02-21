@@ -1,0 +1,3 @@
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/DivideYVenceras/EjericicioRangoNotas/cmake-build-debug/CMakeFiles/EjericicioRangoNotas.dir
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/DivideYVenceras/EjericicioRangoNotas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/DivideYVenceras/EjericicioRangoNotas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
