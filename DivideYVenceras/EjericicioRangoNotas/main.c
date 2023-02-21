@@ -29,7 +29,7 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
             *start = *end = -1;
             return 0;
         }
-    }{
+    }else{
         int mid = (izq + der)/2;
         int sDer,eDer;
         //Hacemos la recursividad
