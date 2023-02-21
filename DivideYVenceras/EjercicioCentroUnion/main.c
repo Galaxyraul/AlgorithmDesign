@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int UMBRAL = 8;
-
+int size = 16;
 void insercion(int *v, int izq,int der){
     for(int i = izq + 1; i <= der;++i){ //bucle para recorrerse todo el vector
         int j = i - 1; //Posicion anterior al indicador
@@ -54,31 +54,27 @@ int unionCentrosDYV(int* v,int* x, int izqV,int derV ,int izqX ,int derX){
     if(derV - izqV  == 1){
         if(v[derV] <= x[izqX]){
             return v[derV];
-        } else{
-            return v[izqV] > x[izqX] ? x[derX] : v[izqV];
         }
+        if(v[izqV] < x[izqX]){
+            return  x[izqX];
+        }
+        return v[izqV] < x[derX]? v[izqV] : x[derX];
     }
     else{
-        if(v[derV] < x[izqX]){
-            return v[derV];
-        }
-        if(x[derX] < v[izqV]){
-            return x[derX];
-        }
-        int mid = (izqV - derV )/ 2;
-        return v[mid] < x[mid]? unionCentrosDYV(v,x,izqV + mid + 1,izqV,derX,derX + mid): unionCentrosDYV(v,x,derX,derV + mid,izqX + mid + 1,izqX);
+        int mid = (derV - izqV )/ 2;
+        return v[izqV + mid] < x[ izqX + mid]? unionCentrosDYV(v,x,izqV + mid + 1,derV,izqX,izqX + mid) : unionCentrosDYV(v,x,izqV,izqV + mid,izqX + mid + 1,derX);
     }
 }
 int main() {
-    int v[4];
-    int x[4];
+    int v[size];
+    int x[size];
     srand(28);
-    for(int i = 0; i < 4; ++i){
+    for(int i = 0; i < size; ++i){
         v[i] = rand();
         x[i] = rand();
     }
-    mergesort(v,0,3);
-    mergesort(x,0,3);
-    printf("%d", unionCentrosDYV(v,x,0,3,0,3));
+    mergesort(v,0,size - 1);
+    mergesort(x,0,size - 1);
+    printf("%d", unionCentrosDYV(v,x,0,size - 1,0,size - 1));
 
 }
