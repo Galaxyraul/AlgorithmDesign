@@ -22,13 +22,8 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
         *start = *end = v[der] > v[izq]?der:izq;
         return v[*start];
     }else if (der - izq == 0){
-        if(v[izq] > 0){
-            *start = *end = izq;
-            return v[izq];
-        } else{
-            *start = *end = -1;
-            return 0;
-        }
+        *start = *end = izq;
+        return v[izq];
     }else{
         int mid = (izq + der)/2;
         int sDer,eDer;
