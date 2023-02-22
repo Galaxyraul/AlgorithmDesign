@@ -1,0 +1,3 @@
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\EjercicioCentroUnion.dir/objects.a
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\ar.exe qc CMakeFiles\EjercicioCentroUnion.dir/objects.a @CMakeFiles\EjercicioCentroUnion.dir\objects1.rsp
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\EjercicioCentroUnion.dir/objects.a -Wl,--no-whole-archive -o EjercicioCentroUnion.exe -Wl,--out-implib,libEjercicioCentroUnion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\EjercicioCentroUnion.dir\linklibs.rsp
