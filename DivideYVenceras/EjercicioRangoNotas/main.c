@@ -19,8 +19,8 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
             return v[der];
         }
         //En caso de que ambos sean 0 posiciones a -1 y devolvemos 0
-        *start = *end = - 1;
-        return 0;
+        *start = *end = v[der] > v[izq]?der:izq;
+        return v[*start];
     }else if (der - izq == 0){
         if(v[izq] > 0){
             *start = *end = izq;
@@ -36,10 +36,10 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
         int sumaIzq = rangoNotas(v,izq,mid,start,end);
         int sumaDer = rangoNotas(v,mid + 1,der,&sDer,&eDer);
         //Calculamos el centro la secuencia
-        int sumaMid = 0;
-        int sumaAux = 0;
+        int sumaMid = v[mid];
+        int sumaAux = sumaMid;
         int izqMid,derMid;
-        for(int i = mid; i >= izq; --i ){
+        for(int i = mid - 1; i >= izq; --i ){
             sumaAux += v[i];
             if(sumaAux > sumaMid){
                 sumaMid = sumaAux;
