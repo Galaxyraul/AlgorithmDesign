@@ -51,6 +51,7 @@ void mergesort(int* v,int izq,int der){
     }
 }
 int unionCentrosDYV(int* v,int* x, int izqV,int derV ,int izqX ,int derX){
+    //Caso minimo de 2 elementos
     if(derV - izqV  == 1){
         if(v[derV] <= x[izqX]){
             return v[derV];
@@ -59,9 +60,8 @@ int unionCentrosDYV(int* v,int* x, int izqV,int derV ,int izqX ,int derX){
             return  x[izqX];
         }
         return v[izqV] < x[derX]? v[izqV] : x[derX];
-    }
-    else{
-        int mid = (derV - izqV )/ 2;
+    }else{//caso normal
+        int mid = (derV - izqV )/ 2;//Calculo la mitad de los elementos para no tener que usar un parámetro más
         return v[izqV + mid] < x[ izqX + mid]? unionCentrosDYV(v,x,izqV + mid + 1,derV,izqX,izqX + mid) : unionCentrosDYV(v,x,izqV,izqV + mid,izqX + mid + 1,derX);
     }
 }
