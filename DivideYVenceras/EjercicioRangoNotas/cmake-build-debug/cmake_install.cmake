@@ -1,4 +1,4 @@
-# Install script for directory: D:/AlgorithmDesign/DivideYVenceras/EjericicioRangoNotas
+# Install script for directory: C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/DivideYVenceras/EjercicioRangoNotas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/cocol/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/cocol/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/AlgorithmDesign/DivideYVenceras/EjericicioRangoNotas/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/DivideYVenceras/EjercicioRangoNotas/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

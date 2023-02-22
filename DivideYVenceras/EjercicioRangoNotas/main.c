@@ -33,7 +33,7 @@ int rangoNotas(int* v,int izq,int der,int* start,int* end){
         //Calculamos el centro la secuencia
         int sumaMid = v[mid];
         int sumaAux = sumaMid;
-        int izqMid,derMid;
+        int izqMid = mid,derMid = mid;
         for(int i = mid - 1; i >= izq; --i ){
             sumaAux += v[i];
             if(sumaAux > sumaMid){
@@ -74,7 +74,7 @@ int main() {
     srand(28);
     int v[tam];
     for (int i = 0; i < tam; ++i) {
-        v[i] = rand() % 201 - 100;
+        v[i] = rand() % 99 - 100;
     }
 
     int ini,fin;
