@@ -1,42 +1,62 @@
+#include <arpa/inet.h>
+#include <sys/socket.h>
+#include <netdb.h>
+#include <ifaddrs.h>
 #include <stdio.h>
-#include "imatriz2d.h"
 #include <stdlib.h>
-#define Filas 8
-#define Columnas 8
-int clasico(imatriz2d m, int xinicio, int yfin,int filas,int columnas, int valorA, int valorB){
-    int suma = 0;
-    for(int i = xinicio; i < xinicio + filas; ++i){
-        for(int j = yfin; j <yfin + columnas; ++j){
-            suma += (m[i][j] >= valorA && m[i][j] <= valorB )? 1:0;
-        }
-    }
-    return suma;
-}
-int valoresIntervalo(imatriz2d m, int xinicio, int yfin,int filas,int columnas, int valorA, int valorB){
-    if(filas * columnas == 4){ clasico(m,xinicio,yfin,filas,columnas,valorA,valorB);}
-    else{
-        filas = filas/4;
-        columnas = columnas/4;
-        return  valoresIntervalo(m,xinicio,yfin,filas,columnas,valorA,valorB) +
-        valoresIntervalo(m,xinicio + columnas,yfin,filas,columnas,valorA,valorB) +
-        valoresIntervalo(m,xinicio,yfin + columnas,filas,columnas,valorA,valorB) +
-        valoresIntervalo(m,xinicio + columnas,yfin + columnas,filas,columnas,valorA,valorB);
-    }
-}
-
+#include <unistd.h>
+#include <linux/if_link.h>
 int main() {
-    srand(28);
-    imatriz2d matriz = icreamatriz2d(Filas,Columnas);
-    for(int i = 0; i < Filas;++i){
-        for(int j = 0; j < Columnas; ++j){
-            matriz[i][j] = rand();
-        }
+    struct ifaddrs *ifaddr, *ifa;
+    char host[NI_MAXHOST];
+    char *addr;
+    struct sockaddr_in *socket;
+    unsigned char *mac_address;
+    int family, s;
+
+    if (getifaddrs(&ifaddr) == -1) {
+        perror("getifaddrs");
+        exit(EXIT_FAILURE);
     }
-    for(int i = 0; i < Filas;++i){
-        for(int j = 0; j < Columnas; ++j){
-            printf("%d\n",matriz[i][j]);
+
+    for (ifa = ifaddr; ifa != NULL; ifa = ifa->ifa_next) {
+        family = ifa->ifa_addr->sa_family;
+
+        //Vemos si es IPv4
+        if (family == AF_INET) {
+            printf("%s\n", ifa->ifa_name); //Nombre de la interfaz
+            addr = inet_ntoa(((struct sockaddr_in*)ifa->ifa_addr)->sin_addr); //Direccion IP convertida a caracter legible
+            printf("\tDireccion IPv4:   %s\n", addr);
+            socket = (struct sockaddr_in *) ifa->ifa_netmask;//Mascara de red
+            printf("\tMascara de red:   %s\n", inet_ntoa(socket->sin_addr));
+            mac_address = (unsigned char *) ifa->ifa_addr->sa_data; //Direccion MAC
+            printf("\tDirección MAC:   %02X:%02X:%02X:%02X:%02X:%02X\n", mac_address[0], mac_address[1], mac_address[2], mac_address[3], mac_address[4], mac_address[5]);
         }
+
+        //Vemos si es IPv6
+        if (family == AF_INET6) {
+            char addr6[INET6_ADDRSTRLEN];
+            inet_ntop(ifa->ifa_addr->sa_family, &(((struct sockaddr_in6*)ifa->ifa_addr)->sin6_addr), addr6, INET6_ADDRSTRLEN);
+            printf("%s\n", ifa->ifa_name); //Nombre de la interfaz
+            printf("\tDireccion IPv6: %-8s\n", addr6);
+            char netmask6[INET6_ADDRSTRLEN];
+            inet_ntop(ifa->ifa_addr->sa_family, &(((struct sockaddr_in6*)ifa->ifa_netmask)->sin6_addr), netmask6, INET6_ADDRSTRLEN);
+            printf("\tMáscara de red: %-8s\n", netmask6);
+
+        }
+        if (family == AF_PACKET && ifa->ifa_data != NULL) {
+            struct rtnl_link_stats *stats = static_cast<struct rtnl_link_stats *>(ifa->ifa_data);
+            printf("%s\n", ifa->ifa_name);
+            printf("\ttx_packets = %10u; rx_packets = %10u\n"
+                   "\ttx_bytes   = %10u; rx_bytes   = %10u\n",
+                   stats->tx_packets, stats->rx_packets,
+                   stats->tx_bytes, stats->rx_bytes);
+        }
+
+
     }
-    printf("El número de valores entre A y B es:%d", valoresIntervalo(matriz,0,0,Filas,Columnas,0,9889));
-    ifreematriz2d(&matriz);
+
+    freeifaddrs(ifaddr);
+    return 0;
+
 }

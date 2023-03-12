@@ -1,0 +1,6 @@
+# ninja log v5
+0	82	7003258216678977	CMakeFiles/disjoint.dir/prdisjoint.c.obj	2f964aa82b7a81eb
+8	114	7003258216993876	CMakeFiles/disjoint.dir/disjoint.c.obj	bc35476e973bfc91
+115	242	7003258218232022	disjoint.exe	593b28fb36f2bb39
+2	72	7003258482814645	CMakeFiles/disjoint.dir/prdisjoint.c.obj	2f964aa82b7a81eb
+73	179	7003258483800608	disjoint.exe	593b28fb36f2bb39
