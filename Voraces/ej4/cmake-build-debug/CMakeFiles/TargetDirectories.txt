@@ -1,0 +1,3 @@
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Voraces/ej4/cmake-build-debug/CMakeFiles/ej4.dir
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Voraces/ej4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Voraces/ej4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
