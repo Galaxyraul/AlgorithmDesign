@@ -4,7 +4,7 @@
 
 #define NUM_BALDAS 5
 #define NUM_LIBROS 20
-
+//Elige la balda con menor peso para añadirle el libro
 void selector(int *b,int libro){
     int candidata = 0;
     for(int i = 0; i < NUM_BALDAS; ++i){
