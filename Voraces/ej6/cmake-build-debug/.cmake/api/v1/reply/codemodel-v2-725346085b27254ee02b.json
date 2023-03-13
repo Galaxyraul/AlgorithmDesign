@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "ej1",
+					"name" : "ej6",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "ej1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ej1-Debug-07a7d8cc6b8998cb2f93.json",
-					"name" : "ej1",
+					"id" : "ej6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ej6-Debug-aa913e80ec5932b20f90.json",
+					"name" : "ej6",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/AlgorithmDesign/Voraces/ej1/cmake-build-debug",
-		"source" : "D:/AlgorithmDesign/Voraces/ej1"
+		"build" : "C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Voraces/ej6/cmake-build-debug",
+		"source" : "C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Voraces/ej6"
 	},
 	"version" : 
 	{

@@ -1,0 +1,3 @@
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\ej1.dir/objects.a
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\ar.exe qc CMakeFiles\ej1.dir/objects.a @CMakeFiles\ej1.dir\objects1.rsp
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ej1.dir/objects.a -Wl,--no-whole-archive -o ej1.exe -Wl,--out-implib,libej1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ej1.dir\linklibs.rsp

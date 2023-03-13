@@ -5,6 +5,7 @@ void seleccion(int **v,int reloj){
     float pesoMayor = 0;
     int pos = 0;
     for(int i = 0; i < 10; ++i){
+        //Saltamos posiciones no válidas
         while(v[0][i] || v[1][i] < reloj){i++;}
         float peso = v[2][i] / (float)((v[1][i] - reloj) + 1);
         if(peso > pesoMayor){
@@ -12,7 +13,7 @@ void seleccion(int **v,int reloj){
             pos = i;
         }
     }
-    v[0][pos] =1;
+    v[0][pos] = 1;
     printf("El pedidido elegido ha sido el que se encuentra en la posición %d con un precio de %d y un instante de entrega %d\n",pos,v[2][pos],v[1][pos]);
 }
 int main() {
