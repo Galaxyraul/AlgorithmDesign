@@ -1,0 +1,3 @@
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Dinamica/Telematica2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cocol/OneDrive/Escritorio/Universidad/Repos/AlgorithmDesign/Dinamica/Telematica2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
