@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94e171fd-703a-4a01-8c06-9432531e156b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-93dc0c9dd2c63e9e2e53.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6cee19f1a2aa5f37269a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/.cmake/api/v1/reply/index-2023-04-10T16-45-44-0445.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/.cmake/api/v1/reply/target-Telematica2-Debug-2a3256d2ec285bddd9bd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/Telematica2.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/Telematica2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/Telematica2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Dinamica/Telematica2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2PCHLl1ngFVoXlOHnrVc3jdSyr8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "D:/AlgorithmDesign/VueltaAtras",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94e171fd-703a-4a01-8c06-9432531e156b" name="Changes" comment="" />
+      <created>1682954089223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682954089223</updated>
+      <workItem from="1682954090340" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

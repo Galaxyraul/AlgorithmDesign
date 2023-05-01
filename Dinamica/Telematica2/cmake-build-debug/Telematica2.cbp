@@ -76,7 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/AlgorithmDesign/Dinamica/Telematica2/main.c">
+		<Unit filename="D:/AlgorithmDesign/Dinamica/Telematica2/Telematica2.c">
 			<Option target="Telematica2"/>
 		</Unit>
 		<Unit filename="D:/AlgorithmDesign/Dinamica/Telematica2/CMakeLists.txt">

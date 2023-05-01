@@ -68,28 +68,28 @@ include CMakeFiles/Telematica2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Telematica2.dir/flags.make
 
-CMakeFiles/Telematica2.dir/main.c.obj: CMakeFiles/Telematica2.dir/flags.make
-CMakeFiles/Telematica2.dir/main.c.obj: D:/AlgorithmDesign/Dinamica/Telematica2/main.c
-CMakeFiles/Telematica2.dir/main.c.obj: CMakeFiles/Telematica2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\AlgorithmDesign\Dinamica\Telematica2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Telematica2.dir/main.c.obj"
-	C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Telematica2.dir/main.c.obj -MF CMakeFiles\Telematica2.dir\main.c.obj.d -o CMakeFiles\Telematica2.dir\main.c.obj -c D:\AlgorithmDesign\Dinamica\Telematica2\main.c
+CMakeFiles/Telematica2.dir/Telematica2.c.obj: CMakeFiles/Telematica2.dir/flags.make
+CMakeFiles/Telematica2.dir/Telematica2.c.obj: D:/AlgorithmDesign/Dinamica/Telematica2/Telematica2.c
+CMakeFiles/Telematica2.dir/Telematica2.c.obj: CMakeFiles/Telematica2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\AlgorithmDesign\Dinamica\Telematica2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Telematica2.dir/Telematica2.c.obj"
+	C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Telematica2.dir/Telematica2.c.obj -MF CMakeFiles\Telematica2.dir\Telematica2.c.obj.d -o CMakeFiles\Telematica2.dir\Telematica2.c.obj -c D:\AlgorithmDesign\Dinamica\Telematica2\Telematica2.c
 
-CMakeFiles/Telematica2.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Telematica2.dir/main.c.i"
-	C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\AlgorithmDesign\Dinamica\Telematica2\main.c > CMakeFiles\Telematica2.dir\main.c.i
+CMakeFiles/Telematica2.dir/Telematica2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Telematica2.dir/Telematica2.c.i"
+	C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\AlgorithmDesign\Dinamica\Telematica2\Telematica2.c > CMakeFiles\Telematica2.dir\Telematica2.c.i
 
-CMakeFiles/Telematica2.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Telematica2.dir/main.c.s"
-	C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\AlgorithmDesign\Dinamica\Telematica2\main.c -o CMakeFiles\Telematica2.dir\main.c.s
+CMakeFiles/Telematica2.dir/Telematica2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Telematica2.dir/Telematica2.c.s"
+	C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.7571.171\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\AlgorithmDesign\Dinamica\Telematica2\Telematica2.c -o CMakeFiles\Telematica2.dir\Telematica2.c.s
 
 # Object files for target Telematica2
 Telematica2_OBJECTS = \
-"CMakeFiles/Telematica2.dir/main.c.obj"
+"CMakeFiles/Telematica2.dir/Telematica2.c.obj"
 
 # External object files for target Telematica2
 Telematica2_EXTERNAL_OBJECTS =
 
-Telematica2.exe: CMakeFiles/Telematica2.dir/main.c.obj
+Telematica2.exe: CMakeFiles/Telematica2.dir/Telematica2.c.obj
 Telematica2.exe: CMakeFiles/Telematica2.dir/build.make
 Telematica2.exe: CMakeFiles/Telematica2.dir/linklibs.rsp
 Telematica2.exe: CMakeFiles/Telematica2.dir/objects1.rsp

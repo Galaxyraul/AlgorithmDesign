@@ -128,29 +128,29 @@ Telematica2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Telematica2.dir\build.make CMakeFiles/Telematica2.dir/build
 .PHONY : Telematica2/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+Telematica2.obj: Telematica2.c.obj
+.PHONY : Telematica2.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Telematica2.dir\build.make CMakeFiles/Telematica2.dir/main.c.obj
-.PHONY : main.c.obj
+Telematica2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Telematica2.dir\build.make CMakeFiles/Telematica2.dir/Telematica2.c.obj
+.PHONY : Telematica2.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+Telematica2.i: Telematica2.c.i
+.PHONY : Telematica2.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Telematica2.dir\build.make CMakeFiles/Telematica2.dir/main.c.i
-.PHONY : main.c.i
+Telematica2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Telematica2.dir\build.make CMakeFiles/Telematica2.dir/Telematica2.c.i
+.PHONY : Telematica2.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+Telematica2.s: Telematica2.c.s
+.PHONY : Telematica2.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Telematica2.dir\build.make CMakeFiles/Telematica2.dir/main.c.s
-.PHONY : main.c.s
+Telematica2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Telematica2.dir\build.make CMakeFiles/Telematica2.dir/Telematica2.c.s
+.PHONY : Telematica2.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Telematica2
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Telematica2.obj
+	@echo ... Telematica2.i
+	@echo ... Telematica2.s
 .PHONY : help
 
 

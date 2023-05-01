@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/AlgorithmDesign/Dinamica/Telematica2/main.c" "CMakeFiles/Telematica2.dir/main.c.obj" "gcc" "CMakeFiles/Telematica2.dir/main.c.obj.d"
+  "D:/AlgorithmDesign/Dinamica/Telematica2/Telematica2.c" "CMakeFiles/Telematica2.dir/Telematica2.c.obj" "gcc" "CMakeFiles/Telematica2.dir/Telematica2.c.obj.d"
   )
 
 # Targets to which this target links.

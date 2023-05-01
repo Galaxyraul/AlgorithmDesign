@@ -1,0 +1,3 @@
+D:/AlgorithmDesign/VueltaAtras/Telematica1/cmake-build-debug/CMakeFiles/Telematica1.dir
+D:/AlgorithmDesign/VueltaAtras/Telematica1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/AlgorithmDesign/VueltaAtras/Telematica1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

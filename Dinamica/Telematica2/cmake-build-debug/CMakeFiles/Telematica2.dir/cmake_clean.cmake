@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Telematica2.dir/main.c.obj"
-  "CMakeFiles/Telematica2.dir/main.c.obj.d"
+  "CMakeFiles/Telematica2.dir/Telematica2.c.obj"
+  "CMakeFiles/Telematica2.dir/Telematica2.c.obj.d"
   "Telematica2.exe"
   "Telematica2.exe.manifest"
   "Telematica2.pdb"
