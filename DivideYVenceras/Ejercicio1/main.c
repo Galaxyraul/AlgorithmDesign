@@ -43,6 +43,7 @@ void merge(int* v,int izq,int mid,int der){
 
 }
 
+
 void mergesort(int* v,int izq,int der){
     int tam = der - izq + 1;
     int mid =  izq + (der - izq)/2;

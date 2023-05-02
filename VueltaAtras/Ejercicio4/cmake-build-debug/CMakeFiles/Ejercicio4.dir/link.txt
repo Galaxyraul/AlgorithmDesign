@@ -1,0 +1,3 @@
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Ejercicio4.dir/objects.a
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\ar.exe qc CMakeFiles\Ejercicio4.dir/objects.a @CMakeFiles\Ejercicio4.dir\objects1.rsp
+C:\Users\cocol\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Ejercicio4.dir/objects.a -Wl,--no-whole-archive -o Ejercicio4.exe -Wl,--out-implib,libEjercicio4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Ejercicio4.dir\linklibs.rsp
